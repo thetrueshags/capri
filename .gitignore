@@ -1,0 +1,32 @@
+# Local state and private customization
+/data/
+/evidence/
+/persona.txt
+**/persona.txt
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.env
+.env.*
+
+# Environments, caches, local shortcuts and generated archives
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.lnk
+*.zip
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Keep the public blank template tracked
+!persona.template.txt

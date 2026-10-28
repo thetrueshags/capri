@@ -1,0 +1,910 @@
+{
+  "idle": [
+    {
+      "name": "floating",
+      "fps": 5.454545454545454,
+      "frames": [
+        "library-v1/idle-default-00.png",
+        "library-v1/idle-default-01.png",
+        "library-v1/idle-default-02.png",
+        "library-v1/idle-default-03.png",
+        "library-v1/idle-default-04.png",
+        "library-v1/idle-default-05.png"
+      ],
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "source_id": "idle:default",
+      "playback": "loop"
+    },
+    {
+      "name": "meditating",
+      "fps": 5.825242718446602,
+      "frames": [
+        "library-v1/activity-reviewing-00.png",
+        "library-v1/activity-reviewing-01.png",
+        "library-v1/activity-reviewing-02.png",
+        "library-v1/activity-reviewing-03.png",
+        "library-v1/activity-reviewing-04.png",
+        "library-v1/activity-reviewing-05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "source_id": "activity:reviewing",
+      "playback": "loop"
+    },
+    {
+      "name": "waving",
+      "fps": 5.714285714285714,
+      "frames": [
+        "library-v1/social-wave-00.png",
+        "library-v1/social-wave-01.png",
+        "library-v1/social-wave-02.png",
+        "library-v1/social-wave-03.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_id": "social:wave",
+      "playback": "once"
+    },
+    {
+      "name": "bored",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-bored-00.png",
+        "library-v1/idle-bored-01.png",
+        "library-v1/idle-bored-02.png",
+        "library-v1/idle-bored-03.png",
+        "library-v1/idle-bored-04.png",
+        "library-v1/idle-bored-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:bored",
+      "playback": "loop"
+    },
+    {
+      "name": "stretching",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-stretching-00.png",
+        "library-v1/idle-stretching-01.png",
+        "library-v1/idle-stretching-02.png",
+        "library-v1/idle-stretching-03.png",
+        "library-v1/idle-stretching-04.png",
+        "library-v1/idle-stretching-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:stretching",
+      "playback": "loop"
+    },
+    {
+      "name": "coffee",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-coffee-00.png",
+        "library-v1/idle-coffee-01.png",
+        "library-v1/idle-coffee-02.png",
+        "library-v1/idle-coffee-03.png",
+        "library-v1/idle-coffee-04.png",
+        "library-v1/idle-coffee-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:coffee",
+      "playback": "loop"
+    },
+    {
+      "name": "reading",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-reading-00.png",
+        "library-v1/activity-reading-01.png",
+        "library-v1/activity-reading-02.png",
+        "library-v1/activity-reading-03.png",
+        "library-v1/activity-reading-04.png",
+        "library-v1/activity-reading-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:reading",
+      "playback": "loop"
+    },
+    {
+      "name": "searching",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-searching-00.png",
+        "library-v1/activity-searching-01.png",
+        "library-v1/activity-searching-02.png",
+        "library-v1/activity-searching-03.png",
+        "library-v1/activity-searching-04.png",
+        "library-v1/activity-searching-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:searching",
+      "playback": "loop"
+    }
+  ],
+  "ready": [
+    {
+      "name": "success",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-success-00.png",
+        "library-v1/activity-success-01.png",
+        "library-v1/activity-success-02.png",
+        "library-v1/activity-success-03.png",
+        "library-v1/activity-success-04.png",
+        "library-v1/activity-success-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:success",
+      "playback": "once"
+    },
+    {
+      "name": "waving",
+      "fps": 5.714285714285714,
+      "frames": [
+        "library-v1/social-wave-00.png",
+        "library-v1/social-wave-01.png",
+        "library-v1/social-wave-02.png",
+        "library-v1/social-wave-03.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_id": "social:wave",
+      "playback": "once"
+    },
+    {
+      "name": "excited",
+      "fps": 5.9523809523809526,
+      "frames": [
+        "library-v1/mood-excited-00.png",
+        "library-v1/mood-excited-01.png",
+        "library-v1/mood-excited-02.png",
+        "library-v1/mood-excited-03.png",
+        "library-v1/mood-excited-04.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_id": "mood:excited",
+      "playback": "once"
+    }
+  ],
+  "working": [
+    {
+      "name": "typing",
+      "fps": 7.317073170731708,
+      "frames": [
+        "library-v1/activity-working-00.png",
+        "library-v1/activity-working-01.png",
+        "library-v1/activity-working-02.png",
+        "library-v1/activity-working-03.png",
+        "library-v1/activity-working-04.png",
+        "library-v1/activity-working-05.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "source_id": "activity:working",
+      "playback": "loop"
+    }
+  ],
+  "waiting": [
+    {
+      "name": "expectant",
+      "fps": 5.9405940594059405,
+      "frames": [
+        "library-v1/activity-waiting-00.png",
+        "library-v1/activity-waiting-01.png",
+        "library-v1/activity-waiting-02.png",
+        "library-v1/activity-waiting-03.png",
+        "library-v1/activity-waiting-04.png",
+        "library-v1/activity-waiting-05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "source_id": "activity:waiting",
+      "playback": "loop"
+    }
+  ],
+  "blocked": [
+    {
+      "name": "dizzy",
+      "fps": 6.557377049180328,
+      "frames": [
+        "library-v1/activity-error-00.png",
+        "library-v1/activity-error-01.png",
+        "library-v1/activity-error-02.png",
+        "library-v1/activity-error-03.png",
+        "library-v1/activity-error-04.png",
+        "library-v1/activity-error-05.png",
+        "library-v1/activity-error-06.png",
+        "library-v1/activity-error-07.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "source_id": "activity:error",
+      "playback": "once"
+    }
+  ],
+  "sleeping": [
+    {
+      "name": "sleeping",
+      "fps": 3.5294117647058822,
+      "frames": [
+        "library-v1/idle-sleeping-00.png",
+        "library-v1/idle-sleeping-01.png",
+        "library-v1/idle-sleeping-02.png",
+        "library-v1/idle-sleeping-03.png",
+        "library-v1/idle-sleeping-04.png",
+        "library-v1/idle-sleeping-05.png"
+      ],
+      "durations_ms": [
+        350,
+        250,
+        250,
+        350,
+        250,
+        250
+      ],
+      "source_id": "idle:sleeping",
+      "playback": "loop"
+    }
+  ],
+  "hover": [
+    {
+      "name": "hover",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/poke-love-00.png",
+        "library-v1/poke-love-01.png",
+        "library-v1/poke-love-02.png",
+        "library-v1/poke-love-03.png",
+        "library-v1/poke-love-04.png",
+        "library-v1/poke-love-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "poke:love",
+      "playback": "once"
+    }
+  ],
+  "poke": [
+    {
+      "name": "poke",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/poke-love-00.png",
+        "library-v1/poke-love-01.png",
+        "library-v1/poke-love-02.png",
+        "library-v1/poke-love-03.png",
+        "library-v1/poke-love-04.png",
+        "library-v1/poke-love-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "poke:love",
+      "playback": "once"
+    },
+    {
+      "name": "poke-annoyed",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/poke-annoyed-00.png",
+        "library-v1/poke-annoyed-01.png",
+        "library-v1/poke-annoyed-02.png",
+        "library-v1/poke-annoyed-03.png",
+        "library-v1/poke-annoyed-04.png",
+        "library-v1/poke-annoyed-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "poke:annoyed",
+      "playback": "once"
+    }
+  ],
+  "watch-right": [
+    {
+      "name": "watch-right",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-media-00.png",
+        "library-v1/idle-media-01.png",
+        "library-v1/idle-media-02.png",
+        "library-v1/idle-media-03.png",
+        "library-v1/idle-media-04.png",
+        "library-v1/idle-media-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:media",
+      "playback": "loop"
+    }
+  ],
+  "watch-left": [
+    {
+      "name": "watch-left",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/watch-left-00.png",
+        "library-v1/watch-left-01.png",
+        "library-v1/watch-left-02.png",
+        "library-v1/watch-left-03.png",
+        "library-v1/watch-left-04.png",
+        "library-v1/watch-left-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:media",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:default": [
+    {
+      "name": "default",
+      "fps": 5.454545454545454,
+      "frames": [
+        "library-v1/idle-default-00.png",
+        "library-v1/idle-default-01.png",
+        "library-v1/idle-default-02.png",
+        "library-v1/idle-default-03.png",
+        "library-v1/idle-default-04.png",
+        "library-v1/idle-default-05.png"
+      ],
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "source_id": "idle:default",
+      "playback": "loop"
+    }
+  ],
+  "library:social:wave": [
+    {
+      "name": "wave",
+      "fps": 5.714285714285714,
+      "frames": [
+        "library-v1/social-wave-00.png",
+        "library-v1/social-wave-01.png",
+        "library-v1/social-wave-02.png",
+        "library-v1/social-wave-03.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_id": "social:wave",
+      "playback": "once"
+    }
+  ],
+  "library:mood:excited": [
+    {
+      "name": "excited",
+      "fps": 5.9523809523809526,
+      "frames": [
+        "library-v1/mood-excited-00.png",
+        "library-v1/mood-excited-01.png",
+        "library-v1/mood-excited-02.png",
+        "library-v1/mood-excited-03.png",
+        "library-v1/mood-excited-04.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "source_id": "mood:excited",
+      "playback": "once"
+    }
+  ],
+  "library:activity:error": [
+    {
+      "name": "error",
+      "fps": 6.557377049180328,
+      "frames": [
+        "library-v1/activity-error-00.png",
+        "library-v1/activity-error-01.png",
+        "library-v1/activity-error-02.png",
+        "library-v1/activity-error-03.png",
+        "library-v1/activity-error-04.png",
+        "library-v1/activity-error-05.png",
+        "library-v1/activity-error-06.png",
+        "library-v1/activity-error-07.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "source_id": "activity:error",
+      "playback": "once"
+    }
+  ],
+  "library:activity:waiting": [
+    {
+      "name": "waiting",
+      "fps": 5.9405940594059405,
+      "frames": [
+        "library-v1/activity-waiting-00.png",
+        "library-v1/activity-waiting-01.png",
+        "library-v1/activity-waiting-02.png",
+        "library-v1/activity-waiting-03.png",
+        "library-v1/activity-waiting-04.png",
+        "library-v1/activity-waiting-05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "source_id": "activity:waiting",
+      "playback": "loop"
+    }
+  ],
+  "library:activity:working": [
+    {
+      "name": "working",
+      "fps": 7.317073170731708,
+      "frames": [
+        "library-v1/activity-working-00.png",
+        "library-v1/activity-working-01.png",
+        "library-v1/activity-working-02.png",
+        "library-v1/activity-working-03.png",
+        "library-v1/activity-working-04.png",
+        "library-v1/activity-working-05.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "source_id": "activity:working",
+      "playback": "loop"
+    }
+  ],
+  "library:activity:reviewing": [
+    {
+      "name": "reviewing",
+      "fps": 5.825242718446602,
+      "frames": [
+        "library-v1/activity-reviewing-00.png",
+        "library-v1/activity-reviewing-01.png",
+        "library-v1/activity-reviewing-02.png",
+        "library-v1/activity-reviewing-03.png",
+        "library-v1/activity-reviewing-04.png",
+        "library-v1/activity-reviewing-05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "source_id": "activity:reviewing",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:media": [
+    {
+      "name": "media",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-media-00.png",
+        "library-v1/idle-media-01.png",
+        "library-v1/idle-media-02.png",
+        "library-v1/idle-media-03.png",
+        "library-v1/idle-media-04.png",
+        "library-v1/idle-media-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:media",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:sleeping": [
+    {
+      "name": "sleeping",
+      "fps": 3.5294117647058822,
+      "frames": [
+        "library-v1/idle-sleeping-00.png",
+        "library-v1/idle-sleeping-01.png",
+        "library-v1/idle-sleeping-02.png",
+        "library-v1/idle-sleeping-03.png",
+        "library-v1/idle-sleeping-04.png",
+        "library-v1/idle-sleeping-05.png"
+      ],
+      "durations_ms": [
+        350,
+        250,
+        250,
+        350,
+        250,
+        250
+      ],
+      "source_id": "idle:sleeping",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:bored": [
+    {
+      "name": "bored",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-bored-00.png",
+        "library-v1/idle-bored-01.png",
+        "library-v1/idle-bored-02.png",
+        "library-v1/idle-bored-03.png",
+        "library-v1/idle-bored-04.png",
+        "library-v1/idle-bored-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:bored",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:music": [
+    {
+      "name": "music",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-music-00.png",
+        "library-v1/idle-music-01.png",
+        "library-v1/idle-music-02.png",
+        "library-v1/idle-music-03.png",
+        "library-v1/idle-music-04.png",
+        "library-v1/idle-music-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:music",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:stretching": [
+    {
+      "name": "stretching",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-stretching-00.png",
+        "library-v1/idle-stretching-01.png",
+        "library-v1/idle-stretching-02.png",
+        "library-v1/idle-stretching-03.png",
+        "library-v1/idle-stretching-04.png",
+        "library-v1/idle-stretching-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:stretching",
+      "playback": "loop"
+    }
+  ],
+  "library:idle:coffee": [
+    {
+      "name": "coffee",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/idle-coffee-00.png",
+        "library-v1/idle-coffee-01.png",
+        "library-v1/idle-coffee-02.png",
+        "library-v1/idle-coffee-03.png",
+        "library-v1/idle-coffee-04.png",
+        "library-v1/idle-coffee-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "idle:coffee",
+      "playback": "loop"
+    }
+  ],
+  "library:activity:reading": [
+    {
+      "name": "reading",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-reading-00.png",
+        "library-v1/activity-reading-01.png",
+        "library-v1/activity-reading-02.png",
+        "library-v1/activity-reading-03.png",
+        "library-v1/activity-reading-04.png",
+        "library-v1/activity-reading-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:reading",
+      "playback": "loop"
+    }
+  ],
+  "library:activity:searching": [
+    {
+      "name": "searching",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-searching-00.png",
+        "library-v1/activity-searching-01.png",
+        "library-v1/activity-searching-02.png",
+        "library-v1/activity-searching-03.png",
+        "library-v1/activity-searching-04.png",
+        "library-v1/activity-searching-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:searching",
+      "playback": "loop"
+    }
+  ],
+  "library:activity:success": [
+    {
+      "name": "success",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-success-00.png",
+        "library-v1/activity-success-01.png",
+        "library-v1/activity-success-02.png",
+        "library-v1/activity-success-03.png",
+        "library-v1/activity-success-04.png",
+        "library-v1/activity-success-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:success",
+      "playback": "once"
+    }
+  ],
+  "library:activity:confused": [
+    {
+      "name": "confused",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/activity-confused-00.png",
+        "library-v1/activity-confused-01.png",
+        "library-v1/activity-confused-02.png",
+        "library-v1/activity-confused-03.png",
+        "library-v1/activity-confused-04.png",
+        "library-v1/activity-confused-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "activity:confused",
+      "playback": "once"
+    }
+  ],
+  "library:poke:love": [
+    {
+      "name": "love",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/poke-love-00.png",
+        "library-v1/poke-love-01.png",
+        "library-v1/poke-love-02.png",
+        "library-v1/poke-love-03.png",
+        "library-v1/poke-love-04.png",
+        "library-v1/poke-love-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "poke:love",
+      "playback": "once"
+    }
+  ],
+  "library:poke:annoyed": [
+    {
+      "name": "annoyed",
+      "fps": 6.0,
+      "frames": [
+        "library-v1/poke-annoyed-00.png",
+        "library-v1/poke-annoyed-01.png",
+        "library-v1/poke-annoyed-02.png",
+        "library-v1/poke-annoyed-03.png",
+        "library-v1/poke-annoyed-04.png",
+        "library-v1/poke-annoyed-05.png"
+      ],
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "source_id": "poke:annoyed",
+      "playback": "once"
+    }
+  ]
+}

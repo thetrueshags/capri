@@ -1,0 +1,36 @@
+name: Tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - name: Prepare isolated profile and temp directories
+        shell: pwsh
+        run: |
+          $capriTemp = Join-Path $env:RUNNER_TEMP 'capri-test-temp'
+          New-Item -ItemType Directory -Force -Path $capriTemp | Out-Null
+          "TEMP=$capriTemp" >> $env:GITHUB_ENV
+          "TMP=$capriTemp" >> $env:GITHUB_ENV
+          "CAPRI_DATA_DIR=$(Join-Path $env:RUNNER_TEMP 'capri-test-profile')" >> $env:GITHUB_ENV
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m unittest discover -s tests -q
+      - run: python tools/check_release.py
+      - name: Smoke check
+        shell: pwsh
+        run: |
+          $capriSmoke = Join-Path $env:RUNNER_TEMP 'capri-smoke'
+          python -m capri.companion.app --profile $capriSmoke --smoke 6
+          if ($LASTEXITCODE) { throw 'Application smoke check failed' }
+          if ((Get-Item (Join-Path $capriSmoke 'runtime.log')).Length) { throw 'Smoke check logged errors' }

@@ -1,0 +1,54 @@
+{
+  "left": {
+    "name": "transition:move-left",
+    "fps": 7.4766355140186915,
+    "frames": [
+      "library-v1/transition-move-left-00.png",
+      "library-v1/transition-move-left-01.png",
+      "library-v1/transition-move-left-02.png",
+      "library-v1/transition-move-left-03.png",
+      "library-v1/transition-move-left-04.png",
+      "library-v1/transition-move-left-05.png",
+      "library-v1/transition-move-left-06.png",
+      "library-v1/transition-move-left-07.png"
+    ],
+    "durations_ms": [
+      170,
+      120,
+      120,
+      100,
+      100,
+      120,
+      120,
+      220
+    ],
+    "source_id": "transition:move-left",
+    "playback": "once"
+  },
+  "right": {
+    "name": "transition:move-right",
+    "fps": 7.4766355140186915,
+    "frames": [
+      "library-v1/transition-move-right-00.png",
+      "library-v1/transition-move-right-01.png",
+      "library-v1/transition-move-right-02.png",
+      "library-v1/transition-move-right-03.png",
+      "library-v1/transition-move-right-04.png",
+      "library-v1/transition-move-right-05.png",
+      "library-v1/transition-move-right-06.png",
+      "library-v1/transition-move-right-07.png"
+    ],
+    "durations_ms": [
+      170,
+      120,
+      120,
+      100,
+      100,
+      120,
+      120,
+      220
+    ],
+    "source_id": "transition:move-right",
+    "playback": "once"
+  }
+}

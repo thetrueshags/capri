@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "character": "Capri",
+  "cell_width": 256,
+  "cell_height": 256,
+  "alpha": true,
+  "default": "idle:default",
+  "animations": [
+    {
+      "id": "idle:default",
+      "description": "Calm breathing and blinking; default resting state.",
+      "frames": [
+        "frames/idle-default/00.png",
+        "frames/idle-default/01.png",
+        "frames/idle-default/02.png",
+        "frames/idle-default/03.png",
+        "frames/idle-default/04.png",
+        "frames/idle-default/05.png"
+      ],
+      "strip": "strips/idle-default.png",
+      "preview": "previews/idle-default.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "duration_ms": 1100,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "transition:move-right",
+      "description": "Decompile and rebuild around the persistent green eye box; runtime moves the pet right.",
+      "frames": [
+        "frames/transition-move-right/00.png",
+        "frames/transition-move-right/01.png",
+        "frames/transition-move-right/02.png",
+        "frames/transition-move-right/03.png",
+        "frames/transition-move-right/04.png",
+        "frames/transition-move-right/05.png",
+        "frames/transition-move-right/06.png",
+        "frames/transition-move-right/07.png"
+      ],
+      "strip": "strips/transition-move-right.png",
+      "preview": "previews/transition-move-right.gif",
+      "frame_count": 8,
+      "durations_ms": [
+        170,
+        120,
+        120,
+        100,
+        100,
+        120,
+        120,
+        220
+      ],
+      "duration_ms": 1070,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 100,
+      "interruptible": false,
+      "provenance": "New generated decompile/recompile strip"
+    },
+    {
+      "id": "transition:move-left",
+      "description": "Decompile and rebuild around the persistent green eye box; runtime moves the pet left.",
+      "frames": [
+        "frames/transition-move-left/00.png",
+        "frames/transition-move-left/01.png",
+        "frames/transition-move-left/02.png",
+        "frames/transition-move-left/03.png",
+        "frames/transition-move-left/04.png",
+        "frames/transition-move-left/05.png",
+        "frames/transition-move-left/06.png",
+        "frames/transition-move-left/07.png"
+      ],
+      "strip": "strips/transition-move-left.png",
+      "preview": "previews/transition-move-left.gif",
+      "frame_count": 8,
+      "durations_ms": [
+        170,
+        120,
+        120,
+        100,
+        100,
+        120,
+        120,
+        220
+      ],
+      "duration_ms": 1070,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 100,
+      "interruptible": false,
+      "provenance": "New generated decompile/recompile strip"
+    },
+    {
+      "id": "social:wave",
+      "description": "Friendly greeting or attention gesture.",
+      "frames": [
+        "frames/social-wave/00.png",
+        "frames/social-wave/01.png",
+        "frames/social-wave/02.png",
+        "frames/social-wave/03.png"
+      ],
+      "strip": "strips/social-wave.png",
+      "preview": "previews/social-wave.gif",
+      "frame_count": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "duration_ms": 700,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "mood:excited",
+      "description": "Playful levitating hop.",
+      "frames": [
+        "frames/mood-excited/00.png",
+        "frames/mood-excited/01.png",
+        "frames/mood-excited/02.png",
+        "frames/mood-excited/03.png",
+        "frames/mood-excited/04.png"
+      ],
+      "strip": "strips/mood-excited.png",
+      "preview": "previews/mood-excited.gif",
+      "frame_count": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "duration_ms": 840,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "activity:error",
+      "description": "Surprised then disappointed reaction to failure.",
+      "frames": [
+        "frames/activity-error/00.png",
+        "frames/activity-error/01.png",
+        "frames/activity-error/02.png",
+        "frames/activity-error/03.png",
+        "frames/activity-error/04.png",
+        "frames/activity-error/05.png",
+        "frames/activity-error/06.png",
+        "frames/activity-error/07.png"
+      ],
+      "strip": "strips/activity-error.png",
+      "preview": "previews/activity-error.gif",
+      "frame_count": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "duration_ms": 1220,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "activity:waiting",
+      "description": "Palm-up expectant gesture requesting user input.",
+      "frames": [
+        "frames/activity-waiting/00.png",
+        "frames/activity-waiting/01.png",
+        "frames/activity-waiting/02.png",
+        "frames/activity-waiting/03.png",
+        "frames/activity-waiting/04.png",
+        "frames/activity-waiting/05.png"
+      ],
+      "strip": "strips/activity-waiting.png",
+      "preview": "previews/activity-waiting.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "duration_ms": 1010,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "activity:working",
+      "description": "Busy hands and crimson sparkle hair while processing a task.",
+      "frames": [
+        "frames/activity-working/00.png",
+        "frames/activity-working/01.png",
+        "frames/activity-working/02.png",
+        "frames/activity-working/03.png",
+        "frames/activity-working/04.png",
+        "frames/activity-working/05.png"
+      ],
+      "strip": "strips/activity-working.png",
+      "preview": "previews/activity-working.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "duration_ms": 820,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "activity:reviewing",
+      "description": "Thoughtful inspection and chin-check before calling work complete.",
+      "frames": [
+        "frames/activity-reviewing/00.png",
+        "frames/activity-reviewing/01.png",
+        "frames/activity-reviewing/02.png",
+        "frames/activity-reviewing/03.png",
+        "frames/activity-reviewing/04.png",
+        "frames/activity-reviewing/05.png"
+      ],
+      "strip": "strips/activity-reviewing.png",
+      "preview": "previews/activity-reviewing.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "duration_ms": 1030,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "Existing pet atlas"
+    },
+    {
+      "id": "idle:media",
+      "description": "Eating popcorn while watching media.",
+      "frames": [
+        "frames/idle-media/00.png",
+        "frames/idle-media/01.png",
+        "frames/idle-media/02.png",
+        "frames/idle-media/03.png",
+        "frames/idle-media/04.png",
+        "frames/idle-media/05.png"
+      ],
+      "strip": "strips/idle-media.png",
+      "preview": "previews/idle-media.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "idle:sleeping",
+      "description": "Closed-eye snoozing with slow breathing and head bob.",
+      "frames": [
+        "frames/idle-sleeping/00.png",
+        "frames/idle-sleeping/01.png",
+        "frames/idle-sleeping/02.png",
+        "frames/idle-sleeping/03.png",
+        "frames/idle-sleeping/04.png",
+        "frames/idle-sleeping/05.png"
+      ],
+      "strip": "strips/idle-sleeping.png",
+      "preview": "previews/idle-sleeping.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        350,
+        250,
+        250,
+        350,
+        250,
+        250
+      ],
+      "duration_ms": 1700,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "idle:bored",
+      "description": "Fidget spinner, half-lidded eyes and mild eye roll.",
+      "frames": [
+        "frames/idle-bored/00.png",
+        "frames/idle-bored/01.png",
+        "frames/idle-bored/02.png",
+        "frames/idle-bored/03.png",
+        "frames/idle-bored/04.png",
+        "frames/idle-bored/05.png"
+      ],
+      "strip": "strips/idle-bored.png",
+      "preview": "previews/idle-bored.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "idle:music",
+      "description": "Listening on headphones, nodding and tapping to the beat.",
+      "frames": [
+        "frames/idle-music/00.png",
+        "frames/idle-music/01.png",
+        "frames/idle-music/02.png",
+        "frames/idle-music/03.png",
+        "frames/idle-music/04.png",
+        "frames/idle-music/05.png"
+      ],
+      "strip": "strips/idle-music.png",
+      "preview": "previews/idle-music.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "idle:stretching",
+      "description": "Relaxed arm stretch overhead and outward.",
+      "frames": [
+        "frames/idle-stretching/00.png",
+        "frames/idle-stretching/01.png",
+        "frames/idle-stretching/02.png",
+        "frames/idle-stretching/03.png",
+        "frames/idle-stretching/04.png",
+        "frames/idle-stretching/05.png"
+      ],
+      "strip": "strips/idle-stretching.png",
+      "preview": "previews/idle-stretching.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "idle:coffee",
+      "description": "Lifts a mug, sips and lowers it with a satisfied expression.",
+      "frames": [
+        "frames/idle-coffee/00.png",
+        "frames/idle-coffee/01.png",
+        "frames/idle-coffee/02.png",
+        "frames/idle-coffee/03.png",
+        "frames/idle-coffee/04.png",
+        "frames/idle-coffee/05.png"
+      ],
+      "strip": "strips/idle-coffee.png",
+      "preview": "previews/idle-coffee.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "activity:reading",
+      "description": "Scans an open book and turns a page.",
+      "frames": [
+        "frames/activity-reading/00.png",
+        "frames/activity-reading/01.png",
+        "frames/activity-reading/02.png",
+        "frames/activity-reading/03.png",
+        "frames/activity-reading/04.png",
+        "frames/activity-reading/05.png"
+      ],
+      "strip": "strips/activity-reading.png",
+      "preview": "previews/activity-reading.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "activity:searching",
+      "description": "Shades brow and scans left and right for something.",
+      "frames": [
+        "frames/activity-searching/00.png",
+        "frames/activity-searching/01.png",
+        "frames/activity-searching/02.png",
+        "frames/activity-searching/03.png",
+        "frames/activity-searching/04.png",
+        "frames/activity-searching/05.png"
+      ],
+      "strip": "strips/activity-searching.png",
+      "preview": "previews/activity-searching.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "loop",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "activity:success",
+      "description": "Joyful fist-pump after a completed task.",
+      "frames": [
+        "frames/activity-success/00.png",
+        "frames/activity-success/01.png",
+        "frames/activity-success/02.png",
+        "frames/activity-success/03.png",
+        "frames/activity-success/04.png",
+        "frames/activity-success/05.png"
+      ],
+      "strip": "strips/activity-success.png",
+      "preview": "previews/activity-success.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "activity:confused",
+      "description": "Puzzled head tilts and a hair scratch.",
+      "frames": [
+        "frames/activity-confused/00.png",
+        "frames/activity-confused/01.png",
+        "frames/activity-confused/02.png",
+        "frames/activity-confused/03.png",
+        "frames/activity-confused/04.png",
+        "frames/activity-confused/05.png"
+      ],
+      "strip": "strips/activity-confused.png",
+      "preview": "previews/activity-confused.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 20,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "poke:love",
+      "description": "Affectionate hand-to-chest and finger-heart response.",
+      "frames": [
+        "frames/poke-love/00.png",
+        "frames/poke-love/01.png",
+        "frames/poke-love/02.png",
+        "frames/poke-love/03.png",
+        "frames/poke-love/04.png",
+        "frames/poke-love/05.png"
+      ],
+      "strip": "strips/poke-love.png",
+      "preview": "previews/poke-love.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 70,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "poke:annoyed",
+      "description": "Narrowed eyes, shoo gesture and folded arms after excessive poking.",
+      "frames": [
+        "frames/poke-annoyed/00.png",
+        "frames/poke-annoyed/01.png",
+        "frames/poke-annoyed/02.png",
+        "frames/poke-annoyed/03.png",
+        "frames/poke-annoyed/04.png",
+        "frames/poke-annoyed/05.png"
+      ],
+      "strip": "strips/poke-annoyed.png",
+      "preview": "previews/poke-annoyed.gif",
+      "frame_count": 6,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        160,
+        140,
+        240
+      ],
+      "duration_ms": 1000,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 70,
+      "interruptible": true,
+      "provenance": "New generated activity strip"
+    },
+    {
+      "id": "transition:decompile",
+      "description": "Generic seated body/hair decompile; ends with only green eye box. Relocate or switch state after last frame.",
+      "frames": [
+        "frames/transition-decompile/00.png",
+        "frames/transition-decompile/01.png",
+        "frames/transition-decompile/02.png",
+        "frames/transition-decompile/03.png"
+      ],
+      "strip": "strips/transition-decompile.png",
+      "preview": "previews/transition-decompile.gif",
+      "frame_count": 4,
+      "durations_ms": [
+        170,
+        120,
+        120,
+        100
+      ],
+      "duration_ms": 510,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 100,
+      "interruptible": false,
+      "provenance": "First half of transition:move-right; shared frames, no extra generated motion"
+    },
+    {
+      "id": "transition:recompile",
+      "description": "Generic green-eye-core to seated body/hair rebuild.",
+      "frames": [
+        "frames/transition-recompile/00.png",
+        "frames/transition-recompile/01.png",
+        "frames/transition-recompile/02.png",
+        "frames/transition-recompile/03.png"
+      ],
+      "strip": "strips/transition-recompile.png",
+      "preview": "previews/transition-recompile.gif",
+      "frame_count": 4,
+      "durations_ms": [
+        100,
+        120,
+        120,
+        220
+      ],
+      "duration_ms": 560,
+      "cell_width": 256,
+      "cell_height": 256,
+      "anchor_px": [
+        128,
+        232
+      ],
+      "playback": "once",
+      "priority": 100,
+      "interruptible": false,
+      "provenance": "Second half of transition:move-right; shared frames, no extra generated motion"
+    }
+  ],
+  "gaze": [
+    {
+      "degrees_clockwise_from_up": 0.0,
+      "frame": "gaze/000.png"
+    },
+    {
+      "degrees_clockwise_from_up": 22.5,
+      "frame": "gaze/022.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 45.0,
+      "frame": "gaze/045.png"
+    },
+    {
+      "degrees_clockwise_from_up": 67.5,
+      "frame": "gaze/067.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 90.0,
+      "frame": "gaze/090.png"
+    },
+    {
+      "degrees_clockwise_from_up": 112.5,
+      "frame": "gaze/112.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 135.0,
+      "frame": "gaze/135.png"
+    },
+    {
+      "degrees_clockwise_from_up": 157.5,
+      "frame": "gaze/157.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 180.0,
+      "frame": "gaze/180.png"
+    },
+    {
+      "degrees_clockwise_from_up": 202.5,
+      "frame": "gaze/202.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 225.0,
+      "frame": "gaze/225.png"
+    },
+    {
+      "degrees_clockwise_from_up": 247.5,
+      "frame": "gaze/247.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 270.0,
+      "frame": "gaze/270.png"
+    },
+    {
+      "degrees_clockwise_from_up": 292.5,
+      "frame": "gaze/292.5.png"
+    },
+    {
+      "degrees_clockwise_from_up": 315.0,
+      "frame": "gaze/315.png"
+    },
+    {
+      "degrees_clockwise_from_up": 337.5,
+      "frame": "gaze/337.5.png"
+    }
+  ],
+  "transition_policy": {
+    "decompile": "transition:decompile",
+    "recompile": "transition:recompile",
+    "relocate_after_frame_index": 3,
+    "core_anchor_px": [
+      128.5,
+      128
+    ],
+    "persistent_core": "Whole green rectangular eye box remains visible; body/hair/mouth decompile.",
+    "runtime_responsibility": "Position changes and state sequencing are controlled by your runtime. Generic transitions are authored around the seated base; bespoke activity/prop entrance and exit strips are not included."
+  }
+}
